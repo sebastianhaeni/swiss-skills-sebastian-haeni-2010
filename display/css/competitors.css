@@ -1,0 +1,119 @@
+/**
+ * Copyright (c) 2010
+ * Sebastian Häni
+ */
+ 
+#uploadbutton {
+	width: 100%;
+	text-align: right;
+}
+ 
+.workpreview {
+	float: left;
+	margin: 10px;
+	height: 200px;
+}
+
+.workpreview h3 {
+	width: 160px;
+	vertical-align: bottom;
+}
+
+.workpreview a {
+	vertical-align: bottom;
+	color: #FFFFFF;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+.workpreview a:hover {
+	text-shadow: 0 0 3px #FFFFFF;
+}
+
+#workdisplay * {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 40px;
+}
+
+#workdisplay a:hover {
+	text-shadow: 0 0 5px #FFFFFF;
+}
+
+#previouswork {
+	float: left;
+	width: 60px;
+}
+
+#workscreenshot {
+	width: 600px;
+	text-align: center;
+	margin: 10px 0 10px 0;
+	float: left;
+}
+
+#nextwork {
+	float: left;
+	text-align: right;
+	width: 60px;
+}
+
+/**
+	Comment
+*/
+
+.commententry {
+	padding: 10px;
+}
+
+.commententry:hover {
+	background-color: #000000;
+}
+
+.authorinfo {
+	float: left;
+	width: 150px;
+}
+
+.commentmessage  {
+	float: left;
+}
+
+/**
+	Form
+*/
+
+form {
+	margin: 10px 0;
+}
+
+label {
+	display: block;
+	width: 100px;
+	float: left;
+}
+
+textarea, input {
+	color: #000000;
+	margin-top: 2px;
+}
+
+.reset {
+	padding: 2px;
+}	
+
+.submit {
+	margin-left: 98px;
+	float: left;
+	padding: 2px;
+}
+
+#formerrormessages {
+	margin: 10px;
+	color: #FF3333;
+}
+
+#formerrormessages * {
+	color: #FF3333;
+}
+

@@ -1,0 +1,211 @@
+/**
+ * Copyright (c) 2010
+ * Sebastian Häni
+ */
+ 
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Calibri, sans-serif;
+	color: #AAAAAA;
+}
+
+html {
+	background: url(../images/background.png);
+	overflow-y: scroll;
+}
+
+a img {
+	border: none;
+}
+
+a img:hover {
+	box-shadow: 0 0 8px #FFFFFF;
+	-moz-box-shadow: 0 0 8px #FFFFFF;
+	-webkit-box-shadow: 0 0 8px #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 3px #FFFFFF;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+
+
+* html * { /* IE 6 Background Hack */
+	background: none;
+}
+
+table {
+	margin-top: 10px;
+}
+
+input {
+	color: #000000;
+}
+
+ul li {
+	margin-left: 20px;
+}
+
+/**
+***** Containers
+*/
+
+#main {
+	width: 730px;
+	margin: 10px auto;
+}
+
+#topstripe {
+	background: url(../images/topstripe.png);
+	width: 538px;
+	height: 107px;
+	position: absolute;
+	top: 0;
+	margin-left: 200px;
+}
+
+#header {
+	margin-top: 60px;
+	border-bottom: 3px solid #777777;
+	padding-bottom: 10px;
+}
+
+#blur {
+	position: absolute;
+	width: 867px;
+	height: 267px;
+	top: 0;
+	margin-left: -80px;
+	margin-top: -15px;
+	background: url(../images/blur.png);
+	background-repeat: no-repeat;
+/*	background-position: -70px -20px;*/
+	z-index: -1000;
+}
+
+#logo {
+	float: left;
+	margin-right: 7px;
+	background: url(../images/logo.png);
+	height: 107px;
+	width: 171px;
+}
+
+#logo a {
+	height: 107px;
+	width: 171px;
+	position: absolute;
+	text-decoration: none;
+}
+
+#logo:hover {
+	box-shadow: 0 0 8px #FFFFFF;
+	-moz-box-shadow: 0 0 8px #FFFFFF;
+	-webkit-box-shadow: 0 0 8px #FFFFFF;
+}
+
+#content {
+	
+}
+
+#footer {
+	border-top: 1px solid #777777;
+	padding: 10px;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+#footer * {
+	color: #777777;
+}	
+
+/**
+***** Navigation
+*/
+
+
+#navigation {
+	
+}
+
+#navigation ul {
+	list-style-type: none;
+	padding-top: 28px;
+}
+
+#navigation ul li {
+	margin: 4px;
+	float: left;
+	height: 50px;
+	width: 130px;
+	text-align: center;
+	padding-top: 10px;
+	text-shadow: 0 0 3px #FFFFFF;
+}
+
+#navigation ul li:hover {
+	border-bottom: 2px solid #FFFFFF;
+	text-shadow: 0 0 7px #FFFFFF;
+}
+
+#navigation ul li a {
+	height: 50px;
+	width: 130px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 30px;
+	padding: 10px;
+}
+
+#button1 {
+	background: url(../images/button1.png);
+}
+
+#button2 {
+	background: url(../images/button2.png);
+}
+
+
+#button3 {
+	background: url(../images/button3.png);
+}
+
+#button4 {
+	background: url(../images/button4.png);
+}
+
+.active {
+	border-bottom: 2px solid #FFFFFF;
+	text-shadow: 0 0 7px #FFFFFF;
+}
+
+
+/**
+***** Classes
+*/
+
+.clear {
+	clear: both;
+}
+
+.accessabilityfeature {
+	display: none;
+}
+
+/**
+***** Misc
+*/
+
+.sponsor {
+	float: left;
+	margin: 20px;
+}
+
+#slideshowpicturecontainer {
+	width: 100%;
+	text-align: center;
+	height: 300px;
+	margin: 10px 0 10px 0;
+}
