@@ -1,5 +1,5 @@
 # SwissSkills ICT Competition 2010
-##Work of Sebastian Häni
+## Work of Sebastian Häni
 
 This repository acts as my backup of my solution of the 2010 SwissSkills web developer competition. 
 
